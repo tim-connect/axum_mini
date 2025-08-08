@@ -2,6 +2,16 @@
 name = "axum_mini"
 version = "0.1.0"
 edition = "2024"
+description = "Lightweight HTML minifier middleware for axum web applications"
+license = "MIT"
+repository = "https://github.com/tim-connect/axum_mini"
+homepage = "https://github.com/tim-connect/axum_mini"
+documentation = "https://docs.rs/axum_mini"
+readme = "README.md"
+keywords = ["axum", "middleware", "html", "minify", "web"]
+categories = ["web-programming", "network-programming", "compression", "middleware"]
+exclude = ["/.github", "/examples", "/target", "Makefile", "Justfile"]
+rust-version = "1.72"
 
 [dependencies]
 axum = "0.8.4"
